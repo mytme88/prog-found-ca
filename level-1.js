@@ -1,11 +1,13 @@
 // qusetion 1
-var pet = "dog";
+var pet = "R2-D2";
+console.log(pet);
 
 // qusetion 2
 var person = {
   name: "Yoda",
   age: 900
 };
+console.log(person);
 
 // qusetion 3
 var outOfStock = true;
@@ -50,7 +52,7 @@ var arr = [
 ];
 
 for (var i = 0; i < arr.length; i++) {
-  console.log("age:", arr[i].age, "is sweet:", arr[i].isSweet);
+  console.log("age:", arr[i].age, "is dead:", arr[i].isDead);
 }
 
 // qusetion 8
@@ -72,7 +74,7 @@ var arr = [];
 function addToArray(item) {
   arr.push(item);
 }
-addToArray("Chocolate Egg");
+addToArray("Sith Lord");
 {
   console.log(arr);
 }
